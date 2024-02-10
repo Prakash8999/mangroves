@@ -1,0 +1,30 @@
+# configuration requirements
+
+python-dotenv>=0.5.1
+
+# external tools requirements
+tqdm == 4.62.3
+pandas == 1.2.2
+geopandas == 0.10.2
+simpledbf
+psycopg2
+matplotlib == 3.3.4
+earthengine-api
+gcsfs
+s3fs
+google-cloud-storage == 2.4.0
+google-cloud-datastore == 2.8.0
+google-api-python-client
+iso8601
+pystac
+python_jsonschema_objects
+rio-cogeo
+shapely
+zenodo_get
+pystac
+uuid
+geemap
+pandera == 0.8.1
+pandera[strategies]
+pandera[hypothesis]
+rtree

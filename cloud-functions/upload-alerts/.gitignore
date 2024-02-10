@@ -1,0 +1,7 @@
+credentials.json
+credentials_*.json
+node_modules
+.env
+data/*
+
+!.gitkeep

@@ -1,0 +1,40 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "Transifex": true
+  },
+  "rules": {
+    "import/no-unresolved": "off",
+    "react/jsx-filename-extension": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/button-has-type": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-console": "error"
+  },
+  "plugins": [
+    "@babel",
+    "react-hooks"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/core-modules": [
+      "modules"
+    ]
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended"
+  ]
+}
